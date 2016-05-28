@@ -63,7 +63,7 @@ public class Snake extends JPanel implements KeyListener, ActionListener{
     java.util.List<Integer> foodY = new ArrayList();
     java.util.List<Integer> xCoords = new ArrayList();
     java.util.List<Integer> yCoords = new ArrayList();
-    boolean walls = true;
+    boolean walls = false;
     boolean paused = false;
     JLabel score = new JLabel();
     Thread main = Thread.currentThread();
