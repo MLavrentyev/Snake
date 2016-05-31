@@ -58,7 +58,7 @@ public class Snake extends JPanel implements KeyListener, ActionListener{
     boolean human = true;
     static final int X_HIGHT = 500;  // Constants for window sizing
     static final int Y_HIGHT = 500;
-    int waitTime = 75;
+    int waitTime = 150;
     java.util.List<Integer> foodX = new ArrayList();
     java.util.List<Integer> foodY = new ArrayList();
     java.util.List<Integer> xCoords = new ArrayList();
